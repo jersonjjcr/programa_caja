@@ -1,0 +1,11 @@
+# URBAN VIVES - Sistema de Cafetería POS
+# Dependencias principales del proyecto
+
+# PDF Generation y impresión
+reportlab>=4.0.0
+
+# Imágenes (si se necesita en el futuro)
+Pillow>=10.0.0
+
+# Nota: tkinter, sqlite3, datetime vienen incluidos con Python
+# No es necesario instalarlos por separado

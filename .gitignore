@@ -127,7 +127,10 @@ dmypy.json
 facturas_generadas/
 reports/
 *.pdf
-*.txt
+
+# Archivos de texto generados (excepto requirements.txt y README)
+/facturas_generadas/*.txt
+/reports/*.txt
 
 # Archivos temporales del sistema
 .DS_Store
